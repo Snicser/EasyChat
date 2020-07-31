@@ -1,0 +1,15 @@
+name: ${name}
+version: ${version}
+main: ${main}
+author: ${author}
+description: ${description}
+
+commands:
+  clearchat:
+    description: Clear the chat
+    aliases:
+      - cc
+  lockchat:
+    description: Lock or unlock the chat
+  timeout:
+    description: Give a time out to a player
